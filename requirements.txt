@@ -1,0 +1,6 @@
+pyTelegramBotAPI
+aenum
+requests
+datetime
+beautifulsoup4
+lxml
