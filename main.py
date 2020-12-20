@@ -44,7 +44,7 @@ def send_start(message: types.Message):
 
 
 # \w*\s\w\.\w\.
-@bot.message_handler(content_types=['text'], regexp='[А-Яа-я]{4,12}\s\w\.\w*')
+@bot.message_handler(content_types=['text'], regexp='[А-Яа-яЁёЇїІіЄєҐґ]{4,12}\s\w\.\w*')
 def third_line_find_teacher(message: types.Message):
     teacher_name = message.text
     print(mode_switcher)
